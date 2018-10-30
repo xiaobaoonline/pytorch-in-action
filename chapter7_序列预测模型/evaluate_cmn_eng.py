@@ -32,7 +32,7 @@ def evaluateAndShowAttention(sentence):
     evaluateAndShowAtten(input_lang, output_lang, sentence, encoder1, attn_decoder1)
 
 evaluateAndShowAttention("他们肯定会相恋的。")
-evaluateAndShowAttention("她獨自留在家裡。")
+evaluateAndShowAttention("我现在正在学习。")
 
 # 语料中的数据随机选择评估
 evaluateRandomly(input_lang, output_lang, pairs, encoder1, attn_decoder1)

@@ -101,6 +101,17 @@ def cut(sentence, use_jieba=False):
         return ' '.join(words)
 
 
+import jieba.posseg as pseg
+
+
+def tag(sentence):
+    words = pseg.cut(sentence)
+    result = ''
+    for w in words:
+        result = result + w.word + "/" + w.flag +" "
+    return result
+
+
 def readLangs(lang1, lang2, reverse=False):
     '''
 
@@ -208,3 +219,14 @@ def timeSince(since, percent):
     es = s / (percent)
     rs = es - s
     return '%s (- %s)' % (asMinutes(s), asMinutes(rs))
+
+
+if __name__ == "__main__":
+    s = 'Fans of Belgium cheer prior to the 2018 FIFA World Cup Group G match between Belgium and Tunisia in Moscow, Russia, June 23, 2018.'
+    s = '结婚的和尚未结婚的和尚'
+    s = "买张下周三去南海的飞机票，海航的"
+    s = "过几天天天天气不好。"
+
+    a = cut(s, use_jieba=True)
+    print(a)
+    print(tag(s))
