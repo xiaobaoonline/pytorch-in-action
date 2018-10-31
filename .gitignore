@@ -5,6 +5,8 @@ __pycache__/
 chapter8_PyTorch项目实战/cat_vs_dog/
 chapter8_PyTorch项目实战/text_classification/data
 chapter8_PyTorch项目实战/text_classification/.vector_cache/
+chapter8_PyTorch项目实战/speech_command/org_data
+chapter8_PyTorch项目实战/speech_command/data
 # Pycharm
 .idea
 
