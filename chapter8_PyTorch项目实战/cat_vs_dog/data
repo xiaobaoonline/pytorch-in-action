@@ -1,0 +1,3 @@
+Kaggle 竞赛的猫狗数据集在 https://www.kaggle.com/c/dogs-vs-cats/data 网址下载。
+在本实验中，先解压 train.zip 压缩包，得到一个 train 文件夹。
+数据解压后利用 preprare_data.py 进行数据预处理。

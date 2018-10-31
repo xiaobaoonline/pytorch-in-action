@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+chapter8_PyTorch项目实战/cat_vs_dog/
 # Pycharm
 .idea
 
