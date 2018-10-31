@@ -61,10 +61,10 @@
     8.3 语音识别系统介绍
 ```
 
-## 代码运行环境
-- python=3.6.5
-- pytorch=0.3.0
+## 运行环境
+- python==3.6.5
+- pytorch==0.3.0
 - torch==0.3.0
 - torchtext==0.2.1
-- torchvision=0.2.0
+- torchvision==0.2.0
 - librosa==0.5.1
