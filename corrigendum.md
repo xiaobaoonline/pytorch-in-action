@@ -9,3 +9,9 @@
 
 ![图_4-2](./images/图_4-2.png)
 
+## 2019年4月29日 [Issues#2](https://github.com/xiaobaoonline/pytorch-in-action/issues/2) [@DemonsRhythm](https://github.com/DemonsRhythm)
+
+- p53，"start-of-art"，应修正为"state-of-the-art"
+- p79，p87, p93, "Hilton"，应修正为"Hinton"
+- p85，"L1正则化被定义为"，应修正为"L2正则化被定义为"
+- p90，计算"less"，应修正为计算"loss"
