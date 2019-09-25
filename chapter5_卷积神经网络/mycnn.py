@@ -59,9 +59,10 @@ class Cnn(nn.Module):
 
 
 # 打印模型
-print(Cnn)
-
 model = Cnn(1, 10)  # 图片大小是28x28, 10
+
+# 打印模型
+print(model)
 
 # 定义loss和optimizer
 criterion = nn.CrossEntropyLoss()
