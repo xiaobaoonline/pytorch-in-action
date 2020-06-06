@@ -62,7 +62,7 @@ class Net(torch.nn.Module):
 
 
 # iris 中输入特征 4 维，隐藏层和输出层可以自己选择
-net = Net(n_feature=4, n_hidden=5, n_output=4)
+net = Net(n_feature=4, n_hidden=5, n_output=3)
 
 # 如果GPU可用 训练数据和模型都放到GPU上，注意：数据和网络是否在GPU上要同步
 if use_cuda:
