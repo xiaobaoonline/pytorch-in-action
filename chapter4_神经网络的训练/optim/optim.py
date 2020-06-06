@@ -19,7 +19,7 @@ plt.scatter(x.numpy(), y.numpy())
 plt.show()
 
 # 把数据转换为torch类型
-torch_dataset = Data.TensorDataset(data_tensor=x, target_tensor=y)
+torch_dataset = Data.TensorDataset(x, y)
 loader = Data.DataLoader(dataset=torch_dataset, batch_size=BATCH_SIZE, shuffle=True, num_workers=2, )
 
 
