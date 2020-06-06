@@ -29,7 +29,7 @@ print(iris.keys())  # dict_keys(['target_names', 'data', 'feature_names', 'DESCR
 x = iris['data']  # 特征信息
 y = iris['target']  # 目标分类
 print(x.shape)  # (150, 4)
-print(x.shape)  # (150,)
+print(y.shape)  # (150,)
 
 print(y)
 
